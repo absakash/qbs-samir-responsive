@@ -12,7 +12,7 @@ import Footer from './Footer';
 
 const Home = () => {
     return (
-        <div>
+        <div className='ml-3 mr-3'>
             <Banner></Banner>
             <OurServices></OurServices>
             <SectionOne></SectionOne>

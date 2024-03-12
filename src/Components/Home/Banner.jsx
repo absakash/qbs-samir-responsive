@@ -14,7 +14,7 @@ const Banner = () => {
 
             </div>
             <div className=' overflow-hidden rounded-lg w-full'>
-                <img className=' w-full  md:w-full mx-auto h-[350px]   md:h-[500px] rounded-lg   hover:scale-125 duration-1000 ease-in-out  ' src={bannerOne} alt="" />
+                <img className='md:w-full mx-auto h-[350px]   md:h-[500px] rounded-lg   hover:scale-125 duration-1000 ease-in-out  ' src={bannerOne} alt="" />
             </div>
         </div>
     );

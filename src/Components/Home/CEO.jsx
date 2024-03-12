@@ -8,7 +8,7 @@ const CEO = () => {
                 <div>
                     <img className='w-full mx-auto md:mx-auto inline-block md:w-full px-10  rounded-lg lg:rounded-lg md:h-[400px]' src={ceo} alt="" />
                 </div>
-                <div>
+                <div className='mt-10 ml-2 mr-2'>
                     <h1 className="text-4xl text-red ">CEO</h1>
                     <p className=' '>At Qubic Business Solutions, we provide call answering service that serves as a resource for all your business communication needs.</p>
                     <h1 className="text-4xl text-red p-2 pt-5">Message</h1>

@@ -15,8 +15,8 @@ const OurServices = () => {
                     <p className=' flex place-items-center '>The benefits of outsourcing include the advantages of reduced costs and increased efficiency, as well as the ability to predict business results and support strategic planning. At Qubic Business Solutions, we are focused on providing the best Business .</p>
 
                 </div>
-                <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-2 mt-10'>
-                    <div className="card w-96 shadow-lg glass ">
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 mt-10'>
+                    <div className="card md:w-96 shadow-lg glass ">
                         <figure><img className='w-full ' src={imgOne} alt="car!" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">DISPATCH CENTER SERVICES</h2>
@@ -24,7 +24,7 @@ const OurServices = () => {
 
                         </div>
                     </div>
-                    <div className="card w-96 shadow-lg glass ">
+                    <div className="card md:w-96 shadow-lg glass ">
                         <figure><img className='w-full ' src={imgTwo} alt="car!" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">TELE-MARKETING SALES SERVICES</h2>
@@ -32,7 +32,7 @@ const OurServices = () => {
 
                         </div>
                     </div>
-                    <div className="card w-96 shadow-lg glass ">
+                    <div className="card md:w-96 shadow-lg glass ">
                         <figure><img className='w-full ' src={imgThree} alt="car!" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">LIVE 24/7 WEB CHAT SUPPORT</h2>
@@ -40,7 +40,7 @@ const OurServices = () => {
 
                         </div>
                     </div>
-                    <div className="card w-96 shadow-lg glass ">
+                    <div className="card md:w-96 shadow-lg glass ">
                         <figure><img className='w-full ' src={imgFour} alt="car!" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">AVIATION SOLUTIONS</h2>
@@ -48,7 +48,7 @@ const OurServices = () => {
 
                         </div>
                     </div>
-                    <div className="card w-96 shadow-lg glass ">
+                    <div className="card md:w-96 shadow-lg glass ">
                         <figure><img className='w-full ' src={imgSix} alt="car!" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">SOFTWARE & APP SOLUTIONS</h2>
@@ -56,7 +56,7 @@ const OurServices = () => {
 
                         </div>
                     </div>
-                    <div className="card w-96 shadow-lg glass ">
+                    <div className="card md:w-96 shadow-lg glass ">
                         <figure><img className='w-full ' src={imgFive} alt="car!" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">
